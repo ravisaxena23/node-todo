@@ -2,7 +2,7 @@ var bodyParser = require('body-parser')
 var mongoose = require('mongoose')
 
 // connect to database
-mongoose.connect("mongodb+srv://test:test@todo-app.fnwbh.mongodb.net/Todo-app?retryWrites=true&w=majority")
+mongoose.connect("mongodb+srv://userid:passowrd@todo-app.fnwbh.mongodb.net/clusterName?retryWrites=true&w=majority")
 
 // create schema
 var todoSchema = new mongoose.Schema({
